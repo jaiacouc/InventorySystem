@@ -19,10 +19,10 @@ namespace InventorySystem
         {
             //String builder for the database connection.
             SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-            builder.DataSource = "inventory-management.database.windows.net";
-            builder.UserID = "adm";
-            builder.Password = "vxa72mYFLFhNMBQ";
-            builder.InitialCatalog = "reselling-inventory";
+            builder.DataSource = "Name";
+            builder.UserID = "User";
+            builder.Password = "Pass";
+            builder.InitialCatalog = "Catalog";
             //Returns the string for connection to the database.
             return builder.ConnectionString;
         }
